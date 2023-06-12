@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage {'verify version'} {
+        stage{'verify version'} {
             steps {
                 sh 'php --version'
 
